@@ -56,21 +56,21 @@ if($row == null) {
     exit;
 }
 
-$id = $fila['id'];
+$id = $row['id'];
 if($name == '') {
-    $name = $fila['name'];
+    $name = $row['name'];
 }
 if($weight == '') {
-    $weight = $fila['weight'];
+    $weight = $row['weight'];
 }
 if($height == '') {
-    $height = $fila['height'];
+    $height = $row['height'];
 }
 if($type == '') {
-    $type = $fila['type'];
+    $type = $row['type'];
 }
 if($num_evolution == '') {
-    $num_evolution = $fila['num_evolution'];
+    $num_evolution = $row['num_evolution'];
 }
 $connection = null;
 
